@@ -9,7 +9,6 @@ import { usePhaserGame } from "@/hooks/usePhaserGame"
 import { useEffect } from "react"
 import { useAccount, useReadContract, useChainId } from "wagmi"
 import artifacts from "../abi/Attestor.json";
-import addresses from "../shared/data/addresses.json";
 
 const CONTRACT_ADDRESS = "0xFf055825cDaB483114A3cAaA6Fbd1279b18AD304"; 
 
@@ -53,10 +52,7 @@ export default function GameSection() {
 
     const account = useAccount();
 
-    const chainId = useChainId();
-    const attestorAddress = chainId === 1337 
-            ? addresses["Attestor#Attestor"] as `0x${string}`
-            : CONTRACT_ADDRESS as `0x${string}`;
+    const attestorAddress = CONTRACT_ADDRESS as `0x${string}`;
     
     const { data: b1 } = useReadContract({
         address: attestorAddress,
