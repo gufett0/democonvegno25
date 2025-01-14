@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <title>Phaser3 Mario</title>
+    <link rel="icon" href="resource/favicon.ico" type="image/x-icon" />
+
+    <!--<script src="static/vconsole.min.js" charset="utf-8"></script>-->
+    <!--<script>-->
+    <!--// init vConsole-->
+    <!--var vConsole = new VConsole();-->
+    <!--</script>-->
+
+    <script>
+        function log(message) {
+            if (typeof message === "string") {
+                console.log("%c " + message + " %c",
+                    "background:#fff; padding: 1px; color: #1b54f2", "background:transparent")
+            } else if (typeof message === "number") {
+                console.log("%c " + message + " %c",
+                    "background:#41b883 ; padding: 1px; border-radius: 3px ;  color: #fff", "background:transparent")
+            } else if (Array.isArray(message)) {
+                console.table(message)
+            }
+            else {
+                // console.log(time, ...arguments)
+                console.log(message)
+            }
+        }
+
+        // 去重,用以计算 tilelayer 中的 layer 数
+        function arrayDeweighting(arr) {
+            let set = new Set(arr);
+            return Array.from(set);
+        }
+
+        window.log = log;
+    </script>
+
+</head>
+
+<body>
+
+
+<!--<script src="static/phaser.min.v3.16.2.js"></script>-->
+<script src="static/phaser.v3.16.2.js"></script>
+<script src="static/zepto.min.js"></script>
+<script src="static/flexible.min.js"></script>
+</body>
+
+</html>
