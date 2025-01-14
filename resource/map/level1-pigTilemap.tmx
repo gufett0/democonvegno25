@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.2" orientation="orthogonal" renderorder="right-down" width="40" height="119" tilewidth="90" tileheight="90" infinite="0" nextlayerid="49" nextobjectid="750">
+ <tileset firstgid="1" name="pigtilemap_tileset" tilewidth="90" tileheight="90" tilecount="588" columns="14">
+  <image source="../../../phaser-pig/resource/image/pigtilemap_tileset" width="1260" height="3780"/>
+ </tileset>
+ <layer id="48" name="graphicLayer" width="40" height="119">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,31,32,33,34,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,1,1,1,1,1,1,237,238,48,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24,1,1,1,1,1,1,251,252,62,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,73,74,75,76,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,1,1,1,1,1,1,1,1,11,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24,1,1,1,1,1,1,1,1,25,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,10,1,1,1,1,1,1,1,1,1,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,24,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,11,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,1,1,1,1,1,1,1,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,25,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,11,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24,1,1,1,1,1,1,1,1,1,1,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24,25,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,11,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24,25,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,11,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24,25,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,11,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,
+0,0,0,0,0,0,0,0,10,1,1,1,1,1,1,11,0,0,0,10,1,1,1,1,1,1,1,1,11,0,0,0,10,1,1,1,1,1,0,0,
+0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,25,0,0,0,24,1,1,1,1,1,1,1,1,25,0,0,0,24,1,1,1,1,25,0,0,
+0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,10,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,1,1,1,1,1,1,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,24,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,1,1,1,1,1,1,1,11,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24,1,1,1,1,1,1,1,25,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,1,1,1,1,1,1,11,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24,1,1,1,1,1,1,1,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,
+0,0,0,0,0,0,0,0,0,10,1,1,1,1,1,1,11,0,0,0,10,1,1,1,1,1,1,1,1,1,1,11,0,0,0,10,1,1,0,0,
+0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,25,0,0,0,24,1,1,1,1,1,1,1,1,1,1,25,0,0,0,24,1,25,0,0,
+0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,10,11,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,1,1,0,0,0,0,24,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,1,1,1,1,1,1,1,1,11,0,0,0,10,11,0,0,0,10,1,1,1,1,1,11,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,24,1,1,1,1,1,1,1,25,0,0,0,24,25,0,0,0,24,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35,1,1,38,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,49,50,51,52,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,63,64,65,66,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,77,78,79,80,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="4" name="coins">
+  <object id="564" name="coins" x="2204" y="8872.5" width="78" height="78"/>
+  <object id="565" name="coins" x="2029" y="8871" width="78" height="78"/>
+  <object id="640" name="coins" x="2377" y="8871.5" width="78" height="78"/>
+  <object id="642" name="coins" x="2573" y="8871" width="78" height="78"/>
+  <object id="643" name="coins" x="3291" y="8457" width="78" height="78"/>
+  <object id="644" name="coins" x="3292.67" y="8298" width="78" height="78"/>
+  <object id="645" name="coins" x="3291.67" y="8592" width="78" height="78"/>
+  <object id="646" name="coins" x="697" y="9682.5" width="78" height="78"/>
+  <object id="647" name="coins" x="522" y="9681" width="78" height="78"/>
+  <object id="648" name="coins" x="870" y="9681.5" width="78" height="78"/>
+  <object id="650" name="coins" x="2300" y="10103" width="78" height="78"/>
+  <object id="651" name="coins" x="2301.67" y="9944" width="78" height="78"/>
+  <object id="652" name="coins" x="2300.67" y="10238" width="78" height="78"/>
+  <object id="653" name="coins" x="2927" y="8062.5" width="78" height="78"/>
+  <object id="654" name="coins" x="3123" y="8062" width="78" height="78"/>
+  <object id="655" name="coins" x="2339" y="7521.5" width="78" height="78"/>
+  <object id="656" name="coins" x="2535" y="7521" width="78" height="78"/>
+  <object id="674" name="coins" x="2942" y="6081.5" width="78" height="78"/>
+  <object id="675" name="coins" x="3138" y="6081" width="78" height="78"/>
+  <object id="676" name="coins" x="2895" y="3831.5" width="78" height="78"/>
+  <object id="677" name="coins" x="3091" y="3831" width="78" height="78"/>
+  <object id="679" name="coins" x="2683" y="3831" width="78" height="78"/>
+  <object id="680" name="coins" x="2601" y="2841.5" width="78" height="78"/>
+  <object id="681" name="coins" x="2797" y="2841" width="78" height="78"/>
+  <object id="682" name="coins" x="2422" y="2841" width="78" height="78"/>
+  <object id="683" name="coins" x="2264" y="2840" width="78" height="78"/>
+  <object id="685" name="coins" x="3294" y="4177" width="78" height="78"/>
+  <object id="686" name="coins" x="3295.67" y="4018" width="78" height="78"/>
+  <object id="687" name="coins" x="3294.67" y="4312" width="78" height="78"/>
+  <object id="688" name="coins" x="1221" y="1904" width="78" height="78"/>
+  <object id="689" name="coins" x="1222.67" y="1745" width="78" height="78"/>
+  <object id="690" name="coins" x="1221.67" y="2039" width="78" height="78"/>
+  <object id="691" name="coins" x="1620" y="2302.5" width="78" height="78"/>
+  <object id="692" name="coins" x="1445" y="2301" width="78" height="78"/>
+  <object id="693" name="coins" x="1793" y="2301.5" width="78" height="78"/>
+  <object id="694" name="coins" x="1633" y="1491.5" width="78" height="78"/>
+  <object id="695" name="coins" x="1458" y="1490" width="78" height="78"/>
+  <object id="696" name="coins" x="1806" y="1490.5" width="78" height="78"/>
+  <object id="697" name="coins" x="2397" y="960.5" width="78" height="78"/>
+  <object id="698" name="coins" x="2222" y="959" width="78" height="78"/>
+  <object id="699" name="coins" x="2570" y="959.5" width="78" height="78"/>
+  <object id="700" name="coins" x="3081" y="410.5" width="78" height="78"/>
+  <object id="701" name="coins" x="2906" y="409" width="78" height="78"/>
+  <object id="703" name="coins" x="2674" y="3382" width="78" height="78"/>
+  <object id="704" name="coins" x="2847" y="3381" width="78" height="78"/>
+  <object id="705" name="coins" x="1047" y="8873" width="78" height="78"/>
+  <object id="706" name="coins" x="1220" y="8872" width="78" height="78"/>
+  <object id="707" name="coins" x="322" y="9501" width="78" height="78"/>
+  <object id="712" name="coins" x="948" y="6082.5" width="78" height="78"/>
+  <object id="713" name="coins" x="1144" y="6082" width="78" height="78"/>
+  <object id="714" name="coins" x="1180" y="6981.5" width="78" height="78"/>
+  <object id="715" name="coins" x="1551" y="6982.5" width="78" height="78"/>
+  <object id="716" name="coins" x="1376" y="6981" width="78" height="78"/>
+  <object id="717" name="coins" x="1724" y="6981.5" width="78" height="78"/>
+  <object id="718" name="coins" x="1920" y="6981" width="78" height="78"/>
+  <object id="719" name="coins" x="652" y="6983.5" width="78" height="78"/>
+  <object id="720" name="coins" x="477" y="6982" width="78" height="78"/>
+  <object id="721" name="coins" x="825" y="6982.5" width="78" height="78"/>
+  <object id="722" name="coins" x="1021" y="6982" width="78" height="78"/>
+  <object id="723" name="coins" x="322" y="6742" width="78" height="78"/>
+  <object id="724" name="coins" x="547" y="6532" width="78" height="78"/>
+  <object id="725" name="coins" x="771" y="6305" width="78" height="78"/>
+  <object id="726" name="coins" x="2001" y="6084.5" width="78" height="78"/>
+  <object id="727" name="coins" x="2197" y="6084" width="78" height="78"/>
+  <object id="746" name="coins" x="861" y="9096" width="78" height="78"/>
+ </objectgroup>
+ <objectgroup id="5" name="arrow">
+  <object id="292" name="arrow" x="1980" y="2790" width="180" height="180">
+   <properties>
+    <property name="direction" value="up"/>
+   </properties>
+  </object>
+  <object id="419" name="arrow" x="270" y="9630" width="180" height="180">
+   <properties>
+    <property name="direction" value="up"/>
+   </properties>
+  </object>
+  <object id="499" name="arrow" x="2970" y="3330" width="180" height="180">
+   <properties>
+    <property name="direction" value="up"/>
+   </properties>
+  </object>
+  <object id="584" name="arrow" x="3240" y="8820" width="180" height="180">
+   <properties>
+    <property name="direction" value="up"/>
+   </properties>
+  </object>
+  <object id="588" name="arrow" x="3240" y="6030" width="180" height="180">
+   <properties>
+    <property name="direction" value="up"/>
+   </properties>
+  </object>
+  <object id="589" name="arrow" x="3240" y="5670" width="180" height="180">
+   <properties>
+    <property name="direction" value="up"/>
+   </properties>
+  </object>
+  <object id="590" name="arrow" x="3240" y="5220" width="180" height="180">
+   <properties>
+    <property name="direction" value="up"/>
+   </properties>
+  </object>
+  <object id="591" name="arrow" x="3240" y="4770" width="180" height="180">
+   <properties>
+    <property name="direction" value="up"/>
+   </properties>
+  </object>
+  <object id="592" name="arrow" x="2430" y="3780" width="180" height="180">
+   <properties>
+    <property name="direction" value="up"/>
+   </properties>
+  </object>
+  <object id="593" name="arrow" x="1170" y="2250" width="180" height="180">
+   <properties>
+    <property name="direction" value="up"/>
+   </properties>
+  </object>
+  <object id="594" name="arrow" x="1800" y="9630" width="180" height="180">
+   <properties>
+    <property name="direction" value="left"/>
+   </properties>
+  </object>
+  <object id="595" name="arrow" x="1350" y="9630" width="180" height="180">
+   <properties>
+    <property name="direction" value="left"/>
+   </properties>
+  </object>
+  <object id="596" name="arrow" x="3240" y="8010" width="180" height="180">
+   <properties>
+    <property name="direction" value="left"/>
+   </properties>
+  </object>
+  <object id="597" name="arrow" x="1980" y="2250" width="180" height="180">
+   <properties>
+    <property name="direction" value="left"/>
+   </properties>
+  </object>
+  <object id="598" name="arrow" x="1980" y="1440" width="180" height="180">
+   <properties>
+    <property name="direction" value="up"/>
+   </properties>
+  </object>
+  <object id="599" name="arrow" x="2700" y="900" width="180" height="180">
+   <properties>
+    <property name="direction" value="up"/>
+   </properties>
+  </object>
+  <object id="600" name="arrow" x="2700" y="360" width="180" height="180">
+   <properties>
+    <property name="direction" value="right"/>
+   </properties>
+  </object>
+  <object id="602" name="arrow" x="1980" y="900" width="180" height="180">
+   <properties>
+    <property name="direction" value="right"/>
+   </properties>
+  </object>
+  <object id="603" name="arrow" x="1170" y="1440" width="180" height="180">
+   <properties>
+    <property name="direction" value="right"/>
+   </properties>
+  </object>
+  <object id="604" name="arrow" x="2970" y="2790" width="180" height="180">
+   <properties>
+    <property name="direction" value="left"/>
+   </properties>
+  </object>
+  <object id="605" name="arrow" x="270" y="9270" width="180" height="180">
+   <properties>
+    <property name="direction" value="right"/>
+   </properties>
+  </object>
+  <object id="606" name="arrow" x="1349" y="8820" width="180" height="180">
+   <properties>
+    <property name="direction" value="right"/>
+   </properties>
+  </object>
+  <object id="607" name="arrow" x="2700" y="8820" width="180" height="180">
+   <properties>
+    <property name="direction" value="right"/>
+   </properties>
+  </object>
+  <object id="608" name="arrow" x="2700" y="8010" width="180" height="180">
+   <properties>
+    <property name="direction" value="up"/>
+   </properties>
+  </object>
+  <object id="609" name="arrow" x="809" y="9270" width="180" height="180">
+   <properties>
+    <property name="direction" value="up"/>
+   </properties>
+  </object>
+  <object id="610" name="arrow" x="809" y="8820" width="180" height="180">
+   <properties>
+    <property name="direction" value="right"/>
+   </properties>
+  </object>
+  <object id="611" name="arrow" x="2700" y="7470" width="180" height="180">
+   <properties>
+    <property name="direction" value="left"/>
+   </properties>
+  </object>
+  <object id="613" name="arrow" x="2070" y="7470" width="180" height="180">
+   <properties>
+    <property name="direction" value="up"/>
+   </properties>
+  </object>
+  <object id="615" name="arrow" x="3240" y="3780" width="180" height="180">
+   <properties>
+    <property name="direction" value="left"/>
+   </properties>
+  </object>
+  <object id="616" name="arrow" x="2250" y="9630" width="180" height="180">
+   <properties>
+    <property name="direction" value="left"/>
+   </properties>
+  </object>
+  <object id="684" name="arrow" x="2430" y="3330" width="180" height="180">
+   <properties>
+    <property name="direction" value="right"/>
+   </properties>
+  </object>
+  <object id="728" name="arrow" x="2430" y="6031" width="180" height="180">
+   <properties>
+    <property name="direction" value="right"/>
+   </properties>
+  </object>
+  <object id="729" name="arrow" x="720" y="6031" width="180" height="180">
+   <properties>
+    <property name="direction" value="right"/>
+   </properties>
+  </object>
+  <object id="730" name="arrow" x="1260" y="6031" width="180" height="180">
+   <properties>
+    <property name="direction" value="right"/>
+   </properties>
+  </object>
+  <object id="731" name="arrow" x="270" y="6931" width="180" height="180">
+   <properties>
+    <property name="direction" value="up"/>
+   </properties>
+  </object>
+  <object id="732" name="arrow" x="720" y="6481" width="180" height="180">
+   <properties>
+    <property name="direction" value="up"/>
+   </properties>
+  </object>
+  <object id="733" name="arrow" x="2070" y="6931" width="180" height="180">
+   <properties>
+    <property name="direction" value="left"/>
+   </properties>
+  </object>
+  <object id="734" name="arrow" x="270" y="6481" width="180" height="180">
+   <properties>
+    <property name="direction" value="right"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="6" name="deadZone">
+  <object id="396" name="deadZone" x="3228" y="2803" width="244" height="706"/>
+  <object id="332" name="deadZone" x="1974" y="9892" width="208.121" height="783"/>
+  <object id="340" name="deadZone" x="3503" y="3785" width="89" height="2586"/>
+  <object id="400" name="deadZone" x="1062" y="9094" width="2379" height="454"/>
+  <object id="402" name="deadZone" x="2680" y="3592" width="845" height="106.848"/>
+  <object id="510" name="deadZone" x="258" y="4040" width="2878" height="1911"/>
+  <object id="516" name="deadZone" x="685" y="8263" width="2486" height="478"/>
+  <object id="517" name="deadZone" x="13" y="9092" width="181" height="725.848"/>
+  <object id="617" name="deadZone" x="528" y="8814" width="205" height="732"/>
+  <object id="618" name="deadZone" x="237" y="8829" width="221" height="346.848"/>
+  <object id="619" name="deadZone" x="3504" y="7848" width="93" height="1148"/>
+  <object id="620" name="deadZone" x="2070" y="7740" width="1430" height="163"/>
+  <object id="621" name="deadZone" x="2070" y="7206" width="812" height="159"/>
+  <object id="622" name="deadZone" x="2334" y="7970" width="294" height="229"/>
+  <object id="623" name="deadZone" x="290" y="7193" width="1712" height="486"/>
+  <object id="625" name="deadZone" x="1984" y="3045" width="919" height="198.848"/>
+  <object id="626" name="deadZone" x="2162" y="3317" width="192" height="650"/>
+  <object id="627" name="deadZone" x="2257" y="1153" width="819" height="1559"/>
+  <object id="630" name="deadZone" x="3282" y="5483" width="103" height="105.848"/>
+  <object id="631" name="deadZone" x="3279" y="5031" width="103" height="105.848"/>
+  <object id="632" name="deadZone" x="3280" y="4583" width="103" height="105.848"/>
+  <object id="633" name="deadZone" x="1166" y="1179" width="968" height="159"/>
+  <object id="634" name="deadZone" x="1994" y="644" width="847" height="151"/>
+  <object id="635" name="deadZone" x="1178" y="2520" width="735" height="348.848"/>
+  <object id="636" name="deadZone" x="1415" y="1700" width="739" height="473"/>
+  <object id="637" name="deadZone" x="917" y="1456" width="175" height="1441"/>
+  <object id="638" name="deadZone" x="2475" y="16" width="849" height="261.848"/>
+  <object id="639" name="deadZone" x="2964" y="622" width="244" height="497"/>
+  <object id="708" name="deadZone" x="1614" y="8844" width="93" height="156.848"/>
+  <object id="709" name="deadZone" x="1162" y="9652" width="108" height="156.848"/>
+  <object id="710" name="deadZone" x="1611" y="9655" width="108" height="156.848"/>
+  <object id="711" name="deadZone" x="2964" y="8843" width="96" height="156.848"/>
+  <object id="735" name="deadZone" x="0" y="6108" width="192" height="1598"/>
+  <object id="736" name="deadZone" x="978" y="6280" width="2442" height="554"/>
+  <object id="737" name="deadZone" x="1527" y="6057" width="108" height="156.848"/>
+  <object id="738" name="deadZone" x="258" y="6036" width="383" height="348.848"/>
+  <object id="739" name="deadZone" x="540" y="6751" width="455" height="85"/>
+  <object id="740" name="deadZone" x="2700" y="6031" width="96" height="156.848"/>
+ </objectgroup>
+ <objectgroup id="9" name="PPPPPPPPPPPPPPig">
+  <object id="95" name="PPPPPPPPPPPPPPig" x="1562" y="10264" width="96" height="150"/>
+ </objectgroup>
+ <objectgroup id="7" name="startPoint">
+  <object id="745" name="startPoint" x="2340" y="10530" width="139" height="142"/>
+ </objectgroup>
+ <objectgroup id="8" name="endPoint">
+  <object id="399" name="endPoint" x="3422" y="277" width="167" height="334"/>
+ </objectgroup>
+</map>
