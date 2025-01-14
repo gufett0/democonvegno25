@@ -7,11 +7,10 @@ import BlankScene from "../game/scene/BlankScene"
 import Phaser from "phaser";
 import { usePhaserGame } from "@/hooks/usePhaserGame"
 import { useEffect } from "react"
-import { useAccount, useReadContract, useChainId } from "wagmi"
+import { useAccount, useReadContract } from "wagmi"
 import artifacts from "../abi/Attestor.json";
 
 const CONTRACT_ADDRESS = "0xFf055825cDaB483114A3cAaA6Fbd1279b18AD304"; 
-
 
 
 const config = {

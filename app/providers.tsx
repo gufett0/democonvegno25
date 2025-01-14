@@ -6,7 +6,7 @@ import { WagmiProvider } from 'wagmi';
 import { RainbowKitProvider } from '@rainbow-me/rainbowkit';
 import { config } from '../config';
 
-
+// @ts-ignore
 const CustomWalletInfo = ({ Text }) => (
   <Text>
     <div className="p-2 text-black">
@@ -18,7 +18,6 @@ const CustomWalletInfo = ({ Text }) => (
     </div>
   </Text>
 );
-
 
 const queryClient = new QueryClient();
 
@@ -33,8 +32,8 @@ export function Providers({ children }: { children: React.ReactNode }) {
             learnMoreUrl: 'https://www.web3.polimi.it/',
             disclaimer: CustomWalletInfo
           }}
-        >
-          {children}
+        > 
+          {children as React.ReactElement}
         </RainbowKitProvider>
       </QueryClientProvider>
     </WagmiProvider>
