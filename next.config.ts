@@ -4,6 +4,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  basePath: '/democonvegno25',
   typescript: {
     ignoreBuildErrors: true,
   },
