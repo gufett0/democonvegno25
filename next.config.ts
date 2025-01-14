@@ -1,10 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
+  basePath: '/democonvegno25',
+  assetPrefix: '/democonvegno25/',
   images: {
     unoptimized: true,
   },
-  basePath: '/democonvegno25',
   typescript: {
     ignoreBuildErrors: true,
   },
